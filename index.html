@@ -32,9 +32,13 @@
         <a data-target="slide-out" class="sidenav-trigger pointer"><i class="material-icons-round" id="burger-menu-icon">menu</i></a>
 
         <div id="hero-section-container">
-            <div style="background-image: url(./IMAGES/background.png);" class="hero-components"></div>
-            <div style="background-image: url(./IMAGES/rocks.png);" class="hero-components"></div>
-            <div style="background-image: url(./IMAGES/moon0.png);background-size: 90%;" class="hero-components"></div>
+            <div id="background0" style="z-index:-3;background-image: url(./IMAGES/bg.png);" class="hero-components"></div>
+            <div id="moon" style="z-index:-2;background-image: url(./IMAGES/moon0.png);background-size: 90%;" class="hero-components"></div>
+            <div id="rocks" style="z-index:-1;background-image: url(./IMAGES/rocks.png);" class="hero-components"></div>
+            <div id="background1" style="z-index:0;background-image: url(./IMAGES/bottom.png);" class="hero-components"></div>          
+        </div>
+
+        <div class="dummy">
 
         </div>
 
@@ -44,5 +48,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./brain.js"></script>
     <script src="./mat.js"></script>
+    <script src="./parallax.js"></script>
 </body>
 </html>

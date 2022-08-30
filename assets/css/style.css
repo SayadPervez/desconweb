@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #2728297d;
+  color: #272829;
 }
 
 a {
@@ -609,7 +609,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #2728297d;
+  color: #272829;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }

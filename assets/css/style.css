@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #2728297d;
 }
 
 a {
@@ -609,7 +609,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #2728297d;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -1228,4 +1228,37 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+/*-----------------------------------------------------*/
+
+.associates-images-div{
+  min-height:15vh;
+  max-height: fit-content;
+  width:100%;
+  padding:2rem;
+  margin:2rem auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.associates-images-div img, .container img{
+  height:100%;
+  margin: auto 2rem;
+  object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 1200px) {
+  .associates-images-div img, .container img{
+    width:70%;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }

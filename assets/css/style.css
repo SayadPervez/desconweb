@@ -448,7 +448,7 @@ section {
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
-.facts .count-box {
+.count-box {
   padding: 30px 30px 25px 30px;
   margin-top: 30px;
   width: 100%;
@@ -457,7 +457,7 @@ section {
   background: #fff;
 }
 
-.facts .count-box i {
+.count-box i {
   position: absolute;
   top: -25px;
   left: 50%;
@@ -473,14 +473,14 @@ section {
   height: 48px;
 }
 
-.facts .count-box span {
+.count-box span {
   font-size: 36px;
   display: block;
   font-weight: 600;
   color: #011426;
 }
 
-.facts .count-box p {
+.count-box p {
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;

@@ -118,6 +118,8 @@
    * Scroll with ofset on page load with hash links in the url
    */
   window.addEventListener('load', () => {
+    var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'))
+    myModal.show();
     if (window.location.hash) {
       if (select(window.location.hash)) {
         scrollto(window.location.hash)

@@ -40,7 +40,7 @@ h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 70px;
   z-index: 996;
   background: #0563bb;
   width: 40px;
@@ -49,8 +49,25 @@ h6 {
   transition: all 0.4s;
 }
 
+.to-event {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #0563bb;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
 .back-to-top i {
   font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.to-event i {
+  font-size: 20px;
   color: #fff;
   line-height: 0;
 }
@@ -61,6 +78,16 @@ h6 {
 }
 
 .back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.to-event:hover {
+  background: #0678e3;
+  color: #fff;
+}
+
+.to-event.active {
   visibility: visible;
   opacity: 1;
 }
